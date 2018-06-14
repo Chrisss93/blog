@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://datamusings.io"
+baseurl = "https://datamusings.io/"
 languageCode = "en"
 
 theme = "hyde-hyde"
