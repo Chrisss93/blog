@@ -1,0 +1,64 @@
+## Basic Configuration
+baseurl = "https://datamusings.io"
+languageCode = "en"
+
+theme = "hyde-hyde"
+
+relativeURLs = true
+enableEmoji = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+[permalinks]
+	post = "/:year/:month/:day/:slug/"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+## Site Settings
+[params]
+    author = "Christopher Lee"
+    title = "Data Musings"
+    description = "Musings on data and statistics"
+    authorimage = "/img/f2.jpg"
+    dateformat = "Jan 2, 2006"
+    highlightjs = true
+    # highlightjsstyle = "github"
+    # please choose either GraphComment or Disqus
+    # GraphCommentId = "your-graph-comment-id"
+    # layoutReverse = true
+    sidebarSticky = false
+
+## Social Accounts
+[params.social]
+    github = "Chrisss93"
+#    gitlab = "Chrisss93"
+#    instagram = "<username>"
+#    xing = "<username>"
+#    linkedin = "<username>"
+#    twitter = "<username>"
+#    facebook = "<username>"
+    stackoverflow = "2860938"
+    email = "chrissslee93@gmail.com"
+
+## Main Menu
+[[menu.main]]
+    name = "Posts"
+    weight = 100
+    identifier = "posts"
+    url = "/posts/"
+[[menu.main]]
+	name = "Apps"
+	weight = 200
+	identifier = "apps"
+	url = "/apps/"
+[[menu.main]]
+	name = "Private Apps"
+	weight = 300
+	identifier = "private-apps"
+	url = "/private-apps/"
+[[menu.main]]
+    name = "About"
+    identifier = "about"
+    weight = 400
+    url = "/about/"
