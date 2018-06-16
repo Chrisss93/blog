@@ -51,12 +51,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	name = "Apps"
 	weight = 200
 	identifier = "apps"
-	url = "/apps/"
-[[menu.main]]
-	name = "Private Apps"
-	weight = 300
-	identifier = "private-apps"
-	url = "/private-apps/"
+	url = "/appList/"
 [[menu.main]]
     name = "About"
     identifier = "about"

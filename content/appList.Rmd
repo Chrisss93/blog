@@ -1,0 +1,11 @@
+---
+title: "Apps"
+---
+
+Below are a selection of web-applications I've written within the Shiny framework of R.
+
+## [Sentiment Analysis on current events](/apps/app2)
+This application contextualizes global news stories scraped from CNN by parsing the text to identify each story's geographic location and topic mixture (as modelled via Latent Dirichlet Allocation). Stories may be searched via search-word, date, geography or topic.
+
+## [Symptom-Diagnosis network](/private-apps/reports/diagnostic_tool)
+This is a very simple application for users to register and connect medical conditions to medical symptoms - seen in terms of a network visualization. The primary use of this application is to use precision and recall to get likely medical conditions given a set of medical symptoms. This application uses [Auth0](https://auth0.com/) for user authentication and [Keen IO](https://keen.io/) for user meta-data since the open-source version of Shiny-Server does not support these facilities natively. 
